@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+</head>
+<body>
+
+    <div id="calculator" style="text-align: center; margin: 20vh auto; width: 300px;">
+        <input type="text" id="operand1" placeholder="Enter operand 1" style="margin: 5px; padding: 8px;">
+        <input type="text" id="operand2" placeholder="Enter operand 2" style="margin: 5px; padding: 8px;">
+        <br>
+        <button onclick="performOperation('add')" style="margin: 5px; padding: 8px;">+</button>
+        <button onclick="performOperation('subtract')" style="margin: 5px; padding: 8px;">-</button>
+        <button onclick="performOperation('multiply')" style="margin: 5px; padding: 8px;">*</button>
+        <button onclick="performOperation('divide')" style="margin: 5px; padding: 8px;">/</button>
+        <br>
+        <div id="result" style="margin-top: 10px; font-weight: bold;">Result:</div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
